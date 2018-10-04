@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CrazyTrain</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">	
+</head>
+<body>
+
+       <!-- Page Title-->
+                <div class="jumbotron">
+                         <h1 class="text-center">ALL ABOOOOOOAAAAARD!</h1>
+                </div>  
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-6 ">
+            <!-- Current train schedule table -->
+                <div class="panel-heading">CURRENT TRAIN SCHEDULE</div>
+                    <div class="scrollable">
+                        <table class="table table-bordered" id="trainTable">
+                              <thead>
+                            <tr>
+                                  <th><h4>Train ID</h4></th>
+                                 <th><h4>Destination</h4></th>
+                                <th><h4>Frequency (min)</h4></th>
+                                <th><h4>Next Arrival</h4></th>
+                                <th><h4>Minutes Away</h4></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="row">
+             <!--Form for filling in train info one by one -->
+            <div class="col-xs-6">
+                <div class="panel panel-primary">
+                <div class="panel-heading">ADD TRAIN</div>
+                    <div class="panel-body">
+                            <p>
+                        <div class="input-group">
+                            <label for="trainName">TRAIN NAME &nbsp</label>
+                            <input type="text" class="form-control" id="trainName">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="destination">DESTINATION &nbsp</label>
+                            <input type="text" class="form-control" id="destination">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="firstTrain">1st TRAIN TIME (HH:mm - military time) &nbsp</label>
+                            <input type="text" class="form-control" id="firstTrain">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="frequency">FREQUENCY (min) &nbsp</label>
+                            <input type="text" class="form-control" id="frequency">
+                        </div>
+                        <p class="text-center main-button-container">
+                            <a class="btn btn-danger btn-lg" id="submit" >SUBMIT</a>
+                        </p>
+
+                      </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="assets/JS/javascript.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+</html>

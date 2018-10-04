@@ -1,0 +1,112 @@
+body {
+	box-sizing: border-box;
+	background-image: url("https://www.avpgalaxy.net/wordpress/wp-content/uploads/2018/08/25082018_02.jpg");
+	text-align: center;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron {
+color:	red;
+background: none !important;
+width:	60%;
+background-color: black;
+}
+
+.panel-heading {
+background-color: green;
+font-weight: bold;
+color:greenyellow;
+text-align: center;
+}
+
+.container {
+	color:	yellow;
+	background: none;
+	font-weight: 500;
+	}
+
+.row {
+	text-align: center;
+	margin-right: 90%;
+
+}
+
+.input-group {
+	width: 100%;
+	margin-bottom: 2%;
+
+}
+
+.scrollable {
+	height: 300px;
+	overflow: scroll;
+	width: 100%;
+}
+
+.btn {
+	margin-left: 5%;
+	font-weight: bold !important;
+}
+
+/* Smallest Devices setting < 576px) */
+/* FYI- I am having trouble making this smaller to be more mobile responsive! */
+@media (max-width: 575px) { 
+	  
+	  body {
+		box-sizing: border-box;
+		background-image: url("https://www.avpgalaxy.net/wordpress/wp-content/uploads/2018/08/25082018_02.jpg");
+		text-align: center;
+		height: 20%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		font-size: 10px;
+	}
+	
+	.jumbotron {
+	color:	red;
+	background: none !important;
+	width:	60%;
+	background-color: black;
+	}
+	
+	.panel-heading {
+	background-color: green;
+	font-weight: bold;
+	color:greenyellow;
+	text-align: center;
+	}
+	
+	.container {
+		color:	yellow;
+		background: none;
+		font-weight: 500;
+		width: 20%;
+		}
+	
+	.box {
+		text-align: center;
+		margin-top: 2%;
+	
+	}
+	
+	.input-group {
+		width: 100%;
+		margin-bottom: 2%;
+	
+	}
+	
+	.scrollable {
+		height: 300px;
+		overflow: scroll;
+		width: 100%;
+	}
+	
+	.btn {
+		margin-left: 5%;
+		font-weight: bold !important;
+	}
+    }
